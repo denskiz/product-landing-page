@@ -7,40 +7,83 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Product Landing Page</title>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-  <header id="header">
-    <nav id="nav-bar">
-      <ul class="container">
-        <li class="nav-link">Home</li>
-        <li class="nav-link">Contact</li>
-        <li class="nav-link">
-          <a href="#address">Products</a>
-        </li>
-        <li>
-          <img id="header-img" src="https://99designs-blog.imgix.net/wp-content/uploads/2017/08/attachment_63221746-e1502903488854.jpg?auto=format&q=60&fit=max&w=930 "
-            alt="">
-        </li>
-      </ul>
+  <div class="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://99designs-blog.imgix.net/wp-content/uploads/2017/08/attachment_63221746-e1502903488854.jpg?auto=format&q=60&fit=max&w=930 "
+          alt="">
+      </div>
+      <nav id="nav-bar">
+
+        <ul class="container">
+          <li>
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#address">Products</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#address">Contact</a>
+          </li>
+
+          <li>
+
+          </li>
+        </ul>
 
 
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <div class="main">
-    <h1>Krispy Cremes Bakery</h1>
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <input type="email" id="email" placeholder="Enter your email address...">
-      <input type="submit" class="submit">
-    </form>
+    <section id="hero">
+      <h1>Jacob's Bakery</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" id="email" placeholder="Enter your email address...">
+        <input type="submit" class="submit">
+      </form>
+
+    </section>
+    <div class="container">
+
+
+      <section id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-bed fa-4x"></i>
+          </div>
+          <div class="description">
+            Fresh Bread and Donuts baked fresh daily
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-bowling-ball fa-4x"></i>
+          </div>
+          <div class="description">
+            Fresh Coffee Brewed daily
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+
 
     <footer>
       <div id="address">Address: 23 Apricot Road, Surrey</div>
     </footer>
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+
   </div>
-  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  <script src="js.js"></script>
 </body>
 
 </html>

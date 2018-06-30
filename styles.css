@@ -1,11 +1,39 @@
-html {
-  background-color: bisque;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+}
+body {
+  background-color: #91c9e2;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #header {
-  color: red;
   font-size: 23px;
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#hero {
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+}
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -26,15 +54,20 @@ li {
 h1 {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 img {
-  flex: 1;
-  width: 50px;
-  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  max-width: 300px;
 }
-.main {
-  text-align: center;
+
+.logo {
+  width: 60vw;
 }
 
 input {
@@ -52,4 +85,34 @@ input {
 
 footer {
   margin-top: 400px;
+}
+
+#features {
+  margin-top: 30px;
+}
+
+/* .container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+} */
+.grid {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 20vw;
+  color: white;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 80vw;
 }
