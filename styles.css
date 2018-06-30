@@ -78,24 +78,22 @@ input {
   margin: auto;
 }
 
-.submit {
+#submit {
   margin-top: 20px;
   width: 70px;
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #features {
   margin-top: 30px;
 }
 
-/* .container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-} */
 .grid {
   display: flex;
 }
@@ -115,4 +113,22 @@ footer {
   align-items: center;
   height: 120px;
   width: 80vw;
+}
+
+p {
+  font-size: 22px;
+}
+
+.video {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+@media (max-width: 300px) {
+  p {
+    font-size: 20px;
+  }
 }
